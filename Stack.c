@@ -40,13 +40,7 @@ int main() {
             return 0;
 
         }
-    }
-
-
-    
-    
-    
-    
+    }   
 
     return 0;
 }
@@ -65,7 +59,7 @@ void displayElement(){
 }
 
 void push(){
-    if(top == MAX){
+    if(top == MAX - 1){
         printf("stack overflow\n");
         return;
     }
